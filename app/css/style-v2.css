@@ -233,7 +233,7 @@ p.section-title:after {
 	margin-top: 17px;
 	width: 70px;
 	height: 1px;
-	background: #19a9e5;
+	background: #E05B41;
 	content: "";
 }
 
@@ -252,13 +252,13 @@ b, strong {
 }
 
 a {
-	color: #19a9e5;
+	color: #E05B41;
 	-webkit-transition: 0.2s;
 	transition: 0.2s;
 }
 
 a:hover {
-	color: #19a9e5;
+	color: #E05B41;
 	text-decoration: none;
 }
 
@@ -284,7 +284,7 @@ a.more:after {
 	margin: 0;
 	width: 0%;
 	height: 1px;
-	background: #19a9e5;
+	background: #E05B41;
 	color: transparent;
 	content: ".";
 	text-align: left;
@@ -312,7 +312,7 @@ a.more:hover:after {
   100% {
     width: 100%;
     height: 1px;
-    background: #19a9e5;
+    background: #E05B41;
   }
 }
 
@@ -595,7 +595,7 @@ body.overflow-hidden:before {
 }
 
 .cta-default {
-	background: #19a9e5;
+	background: #E05B41;
 }
 
 .cta-stroke {
@@ -1221,13 +1221,13 @@ a.overlay-close:hover {
 .contact-form .submit-btn {
 	min-width: 170px;
 	height: 50px;
-	background: #19a9e5;
+	background: #E05B41;
 	text-transform: uppercase;
 	font-size: 20px;
 }
 
 .contact-form .submit-btn:hover {
-	background: #11a1dd;
+	background: #E05B41;
 }
 
 .contact-form .submit-btn:before {
@@ -1263,7 +1263,7 @@ a.overlay-close:hover {
 	display: block;
 	width: 20px;
 	height: 20px;
-	background: #19a9e5;
+	background: #E05B41;
 	content: "";
 	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
@@ -1912,7 +1912,7 @@ a.menu-toggle span {
 	-webkit-border-radius: 0 8px 8px 0;
 	-moz-border-radius: 0 8px 8px 0;
 	border-radius: 0 8px 8px 0;
-	background-color: #f59f06;
+	background-color: #E05B41;
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 24px;
@@ -1924,7 +1924,7 @@ a.menu-toggle span {
 .hero-subscribe-wrapper form .input-group .btn-subscribe:focus,
 .hero-subscribe-wrapper form .input-group .btn-subscribe:active {
 	outline: none;
-	background-color: #ed9903;
+	background-color: #E05B41;
 	box-shadow: none;
 }
 
@@ -2002,7 +2002,7 @@ a.menu-toggle span {
 .register-form .submit-btn {
 	width: 100%;
 	height: 50px;
-	background: #f6a006;
+	background: #E05B41;
 	text-transform: uppercase;
 	font-size: 20px;
 }
@@ -3496,7 +3496,7 @@ ul.portfolio-list li.ext-link figure:focus img {
 	-webkit-border-radius: 0 8px 8px 0;
 	-moz-border-radius: 0 8px 8px 0;
 	border-radius: 0 8px 8px 0;
-	background-color: #f59f06;
+	background-color: #E05B41;
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 16px;
@@ -3511,7 +3511,7 @@ ul.portfolio-list li.ext-link figure:focus img {
 #breaking-subscribe .btn-subscribe:focus,
 #breaking-subscribe .btn-subscribe:active {
 	outline: none;
-	background-color: #ed9903;
+	background-color: #E05B41;
 	box-shadow: none;
 }
 
