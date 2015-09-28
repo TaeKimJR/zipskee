@@ -1554,6 +1554,18 @@ header {
 	margin-top: -10px;
 }
 
+.the-origin-header .logo {
+    display: none;
+}
+
+.the-origin-header .menu-toggle {
+    color: #504E4E;
+}
+
+.the-origin-header .menu-toggle:hover {
+    color: #E05B41;
+}
+
 .header-clone {
 	position: fixed;
 	top: 0;
@@ -1571,6 +1583,11 @@ header {
 	-webkit-transform: translateY(0%);
 	-ms-transform: translateY(0%);
 	transform: translateY(0%);
+}
+
+.header-clone .logo {
+    color: #E05B41;
+    font-size: 22px;
 }
 
 .header-clone .logo img {
@@ -1818,7 +1835,7 @@ a.menu-toggle span {
 .hero-subscribe-layout #hero,
 .creative-layout #hero,
 .event-layout #hero {
-	background: url(../images/stocks/stock.jpg) center center no-repeat;
+	background: url(../images/sky-bg.jpg) center center no-repeat;
 	background-attachment: fixed !important;
 	background-position: center top;
 }
@@ -1847,6 +1864,10 @@ a.menu-toggle span {
 	height: 100vh;
 }
 
+.hero-content h2 {
+    margin-top: 20px;
+}
+
 .hero-content p.lead {
 	margin-top: 20px;
 	margin-bottom: 13px;
@@ -1857,8 +1878,10 @@ a.menu-toggle span {
 .hero-content h3,
 .hero-content h4,
 .hero-content h5,
-.hero-content h6 {
-	color: #fff;
+.hero-content h6,
+.hero-content p,
+.hero-content small{
+	color: #504E4E;
 }
 
 .hero-form-layout .hero-content h2 {
@@ -1949,7 +1972,7 @@ a.menu-toggle span {
 .hero-subscribe-wrapper .helper-text {
 	display: block;
 	margin-top: 11px;
-	color: white;
+	color: #504E4E;
 }
 /* -- */
 
@@ -2318,25 +2341,25 @@ a.scroll-link:hover {
 }
 /* -- */
 
-#what-we-do:before {
-	position: absolute;
-	top: 10px;
-	left: 0;
-	width: 279px;
-	height: 693px;
-	background: url(../images/mockup/ipad-cover.png) no-repeat;
-	content: "";
-}
+/*#what-we-do:before {*/
+	/*position: absolute;*/
+	/*top: 10px;*/
+	/*left: 0;*/
+	/*width: 279px;*/
+	/*height: 693px;*/
+	/*background: url(../images/mockup/ipad-cover.png) no-repeat;*/
+	/*content: "";*/
+/*}*/
 
-#what-we-do:after {
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 306px;
-	height: 665px;
-	background: url(../images/mockup/paper-mockup.png) no-repeat;
-	content: "";
-}
+/*#what-we-do:after {*/
+	/*position: absolute;*/
+	/*top: 0;*/
+	/*right: 0;*/
+	/*width: 306px;*/
+	/*height: 665px;*/
+	/*background: url(../images/mockup/paper-mockup.png) no-repeat;*/
+	/*content: "";*/
+/*}*/
 
 .hero-form-layout #what-we-do:before,
 .hero-form-layout #what-we-do:after {
@@ -2387,6 +2410,7 @@ ul.how-it-works-col li {
 	padding: 120px 0 100px;
 }
 
+
 .how-it-works-title img {
 	margin-bottom: 30px;
 }
@@ -2402,6 +2426,15 @@ ul.how-it-works-col li {
 	padding: 113px 8%;
 	height: 100%;
 	background: rgba(34, 34, 34, 0.7);
+}
+
+.how-it-works-info ul li {
+    padding: 0 0 20px;
+    list-style-type: circle;
+}
+
+.how-it-works-info ul li {
+    background: none !important;
 }
 
 .how-it-works-info,
@@ -2421,7 +2454,7 @@ ul.how-it-works-col li:nth-child(2) .how-it-works-info:after {
 	margin-top: 32px;
 	width: 100%;
 	height: 50px;
-	background: url(../images/arrow.png) no-repeat right;
+	/*background: url(../images/arrow.png) no-repeat right;*/
 	content: "";
 }
 
@@ -2479,15 +2512,18 @@ ul.how-it-works-col li:hover:nth-child(2) .how-it-works-info:after {
 
 /* 6.2 How It Works hover background */
 ul.how-it-works-col li:first-child:hover {
-	background: url(../images/stocks/stock1.jpg) no-repeat center center;
+	background: url(../images/search-rollover.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 ul.how-it-works-col li:nth-child(2):hover {
-	background: url(../images/stocks/stock2.jpg) no-repeat center center;
+	background: url(../images/message-rollover.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 ul.how-it-works-col li:last-child:hover {
-	background: url(../images/stocks/stock3.jpg) no-repeat center center;
+	background: url(../images/connect-rollover.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 /**
@@ -3453,7 +3489,7 @@ ul.portfolio-list li.ext-link figure:focus img {
   */
 
 #subscribe-section {
-	background: url(../images/stocks/stock.jpg) center center no-repeat;
+	background: url(../images/subscribe-bg.jpg) center center no-repeat;
 	background-position: center bottom;
 }
 
