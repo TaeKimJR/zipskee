@@ -2430,6 +2430,7 @@ ul.how-it-works-col li {
 
 .how-it-works-info ul li {
     padding: 0 0 20px;
+    float: none;
 }
 
 .how-it-works-info ul li {
