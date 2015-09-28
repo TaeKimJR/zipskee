@@ -3522,6 +3522,22 @@ ul.portfolio-list li.ext-link figure:focus img {
 	font-size: 16px;
 }
 
+#footer-subscribe .input-group input::-webkit-input-placeholder {
+    color: white;
+}
+
+#footer-subscribe .input-group input:-moz-placeholder { /* Firefox 18- */
+    color: white;
+}
+
+#footer-subscribe .input-group input::-moz-placeholder {  /* Firefox 19+ */
+    color: white;
+}
+
+#footer-subscribe .input-group input:-ms-input-placeholder {
+    color: white;
+}
+
 #footer-subscribe .btn-subscribe,
 #breaking-subscribe .btn-subscribe {
 	position: relative;
