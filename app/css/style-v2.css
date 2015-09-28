@@ -2430,7 +2430,6 @@ ul.how-it-works-col li {
 
 .how-it-works-info ul li {
     padding: 0 0 20px;
-    list-style-type: circle;
 }
 
 .how-it-works-info ul li {
@@ -3584,7 +3583,7 @@ ul.portfolio-list li.ext-link figure:focus img {
 
 #footer-subscribe .btn-subscribe:hover:before,
 #breaking-subscribe .btn-subscribe:hover:before {
-	left: 81%;
+	left: 86%;
 }
 
 #breaking-subscribe {
