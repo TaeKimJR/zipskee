@@ -1,5 +1,9 @@
 # Zipskee
-Zipskee is ...
+`Zipskee is a social platform where travelers and locals connect. Travelers and locals can search by destination and/or 
+interest. Connect with people who have the same passions in life no matter where you’re going. Message people for 
+recommendations, for travel advice, or even for meeting up. Make a connections when you’re planning your trip or even 
+after you land. Share stories, experiences, and culture! Stay connected and bit by bit, the world gets a little bit 
+smaller.`
 
 ## Development
 ### Environment Setup (Mac OSX)
