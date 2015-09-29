@@ -27,7 +27,7 @@ smaller.`
 - Navigate to your project root
 - Move all of the files on the server into the last_commit directory
 - Delete all of the files on the server
-- Move all of your new commit files to the server
+- Move all of your new commit files in the app directory to the server
 - Test the shit out of your site. Or... I'll... Find... You...
 - If acceptable, merge development -> master and tag with version
 
