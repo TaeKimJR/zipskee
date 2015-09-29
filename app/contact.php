@@ -1,6 +1,6 @@
 <?php
-$subject = $_REQUEST['subject'] . ' Urip Landing Page : Demo'; // Subject of your email
-$to = 'your@address.com';  //Recipient's or Your E-mail
+$subject = $_REQUEST['subject'] . ' Zipskee Contact Request'; // Subject of your email
+$to = 'Evan@zipskee.com';  //Recipient's or Your E-mail
 
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= "From: " . $_REQUEST['email'] . "\r\n"; // Sender's E-mail
