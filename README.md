@@ -9,6 +9,7 @@ smaller.`
 ### Environment Setup (Mac OSX)
 - Clone Repo
   * github URL: https://github.com/TaeKimJR/zipskee
+- Switch to the 'develop' branch (DO NOT DEVELOP OUT OF MASTER!)
 - Start Server
   * navigate to project's index.html
     `cd app/`
@@ -24,17 +25,17 @@ smaller.`
   * Password: **********
   * Port: 21
 - Navigate to your project root
-- Create a new directory named last_commit
-- Move all of the files on the server into the newly created directory (last_commit)
+- Move all of the files on the server into the last_commit directory
 - Delete all of the files on the server
 - Move all of your new commit files to the server
 - Test the shit out of your site. Or... I'll... Find... You...
+- If acceptable, merge development -> master and tag with version
 
 #### Revert Deployment
 - Re-connect to the GoDaddy file server through FTP (see Deployment step 1)
 - Delete all of the files on the server
 - Move all of the files from the last_commit directory to the server
-- Test again. I... Mean... It...  
+- Test again. I... Mean... It...
 
 ### Credits
 Template: http://themeforest.net/item/urip-professional-landing-page/11317046
