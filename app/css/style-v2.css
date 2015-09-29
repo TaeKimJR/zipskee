@@ -1837,7 +1837,7 @@ a.menu-toggle span {
 .event-layout #hero {
 	background: url(../images/sky-bg.jpg) center center no-repeat;
 	background-attachment: fixed !important;
-	background-position: center top;
+    background-position: 0 100%;
 }
 
 .hero-form-layout #hero {
